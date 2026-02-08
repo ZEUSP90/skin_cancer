@@ -417,16 +417,6 @@ if __name__ == "__main__":
         print("   img = Image.open('test.jpg')")
         print("   img_array = np.array(img.resize((224, 224))) / 255.0")
         print("   predictions = detector.predict(img_array)")
-        
-        print("\n🎓 FOR YOUR PROFESSOR:")
-        print("─" * 80)
-        print("Key points to emphasize:")
-        print("1. ✅ Novel dual attention mechanism (spatial + channel)")
-        print("2. ✅ Automatically learns relevant regions (no manual ROI)")
-        print("3. ✅ Interpretable attention maps for clinical trust")
-        print("4. ✅ Improved accuracy over baseline (+1-2%)")
-        print("5. ✅ Clinically motivated (mimics dermatologist examination)")
-        
     else:
         print("\n⏸️  Training cancelled. Model architecture is ready.")
         print(f"\n💡 To train later, run: python {__file__}")
