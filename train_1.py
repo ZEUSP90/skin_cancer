@@ -762,7 +762,4 @@ if __name__ == "__main__":
     else:
         print("\n⏸️  Training cancelled. Model architecture is ready.")
         print(f"\n💡 To train later, run this script again")
-    
-    print("\n" + "="*80)
-    print("✅ ALL LITERATURE LIMITATIONS ADDRESSED!")
     print("="*80)
