@@ -284,17 +284,6 @@ if __name__ == "__main__":
     print("✅ Automatic Learning: No manual annotation needed")
     print("✅ Interpretable: Can visualize attention maps for clinical trust")
     print("✅ Expected Accuracy: 93-96% (+1-2% over baseline)")
-    
-    print("\n📊 NOVELTY STATEMENT FOR YOUR PROFESSOR:")
-    print("─" * 80)
-    print('"We propose a novel dual attention mechanism combining spatial and')
-    print('channel attention modules to automatically identify diagnostically')
-    print('relevant image regions and feature channels for skin cancer detection.')
-    print('Unlike manual ROI annotation or single-attention approaches, our dual')
-    print('mechanism learns to jointly attend to both spatial locations and')
-    print('feature channels, improving accuracy while providing interpretable')
-    print('attention maps for clinical decision support."')
-    
     print("\n" + "="*80)
     print("⚙️  CONFIGURATION - CHANGE THESE PATHS")
     print("="*80)
